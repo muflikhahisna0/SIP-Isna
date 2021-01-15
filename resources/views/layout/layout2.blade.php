@@ -40,12 +40,9 @@
 
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
-                    <li class="active"><a href="#header">Home</a></li>
-                    <li><a href="#team">About</a></li>
+                    <li class="active"><a href="/">Home</a></li>
                     <li><a href="/users">Users</a></li>
                     <li><a href="/roles">Roles</a></li>
-                    <li><a href="#contact">Contact</a></li>
-
                 </ul>
             </nav><!-- .nav-menu -->
         </div>

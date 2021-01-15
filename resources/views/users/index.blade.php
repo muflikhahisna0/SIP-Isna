@@ -1,10 +1,11 @@
-@extends('layout/layout')
+@extends('layout/layout2')
 
 @section('title', 'Users')
 @section('content')
 <div class="container-fluid p-4">
     <div class="card">
-        <h5 class="card-header">Users</h5>
+        <h5 class="card-header text-primary">Users</h5>
+        <a href="/users/create" class="btn-sm btn-primary bg-blue font-weight-bold text-white my-3 p-2 pr-4 "><i class="fa fa-plus pl-3 pr-3"></i> Add</a>
         <div class="card-body">
             <a href="/users/create" class="btn bg-blue font-weight-bold text-white my-3 p-2 pr-4 "><i class="fa fa-plus pl-3 pr-3"></i> Add</a>
             @if (session('status'))
