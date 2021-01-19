@@ -8,6 +8,7 @@ use App\Users;
 
 class UsersController extends Controller
 {
+    // users
     public function index()
     {
         $users = DB::table('users')->get();

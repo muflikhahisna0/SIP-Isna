@@ -37,7 +37,7 @@
         <div class="container d-flex align-items-center">
 
             <h1 class="logo mr-auto"><a href="#header" class="scrollto">AXIOO</a></h1>
-
+            <hr>
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="#header">Home</a></li>
